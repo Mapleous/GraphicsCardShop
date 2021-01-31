@@ -29,26 +29,26 @@ namespace GraphicsCardShop
 
             Product[] product = new Product[] { product1, product2, product3 };
 
-            //int a = 1;
-            //foreach (var productt in product)
-            //{
-            //    Console.WriteLine("----------PRODUCT " + (a++)+"----------");
-            //    Console.WriteLine("Name = "+productt.ProductName);
-            //    Console.WriteLine("Chipset = "+productt.Chipset);
-            //    Console.WriteLine("Price = "+productt.ProductPrice);
-            //    Console.WriteLine("InStock = "+productt.InStock);
-            //}
+            int a = 1;
+            foreach (var productt in product)
+            {
+                Console.WriteLine("----------PRODUCT " + (a++) + "----------");
+                Console.WriteLine("Name = " + productt.ProductName);
+                Console.WriteLine("Chipset = " + productt.Chipset);
+                Console.WriteLine("Price = " + productt.ProductPrice);
+                Console.WriteLine("InStock = " + productt.InStock);
+            }
 
-            //for (int b = 0; b < product.Length; b++)
-            //{
-            //    Console.WriteLine("----------PRODUCT " + (b+1) + "----------");
-            //    Console.WriteLine("Name = " + product[b].ProductName);
-            //    Console.WriteLine("Chipset = " + product[b].Chipset);
-            //    Console.WriteLine("Price = " + product[b].ProductPrice);
-            //    Console.WriteLine("InStock = " + product[b].InStock);
-            //}
+            for (int b = 0; b < product.Length; b++)
+            {
+                Console.WriteLine("----------PRODUCT " + (b + 1) + "----------");
+                Console.WriteLine("Name = " + product[b].ProductName);
+                Console.WriteLine("Chipset = " + product[b].Chipset);
+                Console.WriteLine("Price = " + product[b].ProductPrice);
+                Console.WriteLine("InStock = " + product[b].InStock);
+            }
             int c = 0;
-            while (c<product.Length)
+            while (c < product.Length)
             {
                 Console.WriteLine("----------PRODUCT " + (c + 1) + "----------");
                 Console.WriteLine("Name = " + product[c].ProductName);
