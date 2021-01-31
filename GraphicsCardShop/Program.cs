@@ -25,12 +25,12 @@ namespace GraphicsCardShop
             product3.ProductName = "Evga XC3 Ultra";
             product3.Chipset = "GeForce RTX 3090";
             product3.ProductPrice = "22.567 ";
-            product3.InStock = 8;
+            product3.InStock = 9;
 
             Product[] product = new Product[] { product1, product2, product3 };
 
             int a = 1;
-            Console.WriteLine("****************************FOREACH****************************");
+            Console.WriteLine("****************************FOREACH***************************");
             foreach (var productt in product)
             {
                 Console.WriteLine("----------PRODUCT " + (a++) + "----------");
