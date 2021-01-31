@@ -30,6 +30,7 @@ namespace GraphicsCardShop
             Product[] product = new Product[] { product1, product2, product3 };
 
             int a = 1;
+            Console.WriteLine("****************************FOREACH****************************");
             foreach (var productt in product)
             {
                 Console.WriteLine("----------PRODUCT " + (a++) + "----------");
@@ -38,7 +39,7 @@ namespace GraphicsCardShop
                 Console.WriteLine("Price = " + productt.ProductPrice);
                 Console.WriteLine("InStock = " + productt.InStock);
             }
-
+            Console.WriteLine("****************************FOR****************************");
             for (int b = 0; b < product.Length; b++)
             {
                 Console.WriteLine("----------PRODUCT " + (b + 1) + "----------");
@@ -48,6 +49,7 @@ namespace GraphicsCardShop
                 Console.WriteLine("InStock = " + product[b].InStock);
             }
             int c = 0;
+            Console.WriteLine("****************************WHİLE****************************");
             while (c < product.Length)
             {
                 Console.WriteLine("----------PRODUCT " + (c + 1) + "----------");
@@ -68,3 +70,4 @@ namespace GraphicsCardShop
         public int InStock { get; set; }
     }
 }
+ 
